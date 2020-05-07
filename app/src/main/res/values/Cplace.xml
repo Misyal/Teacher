@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="fool">
+        <item>1号</item>
+        <item>2号</item>
+        <item>3号</item>
+
+    </string-array>
+    <string-array name="Cplace">
+                <item>1001</item>
+                <item>1002</item>
+                <item>1003</item>
+                <item>1004</item>
+                <item>1004</item>
+            </string-array>
+
+    <string-array name="Cpalce02">
+        <item>2001</item>
+        <item>2002</item>
+        <item>2003</item>
+        <item>2004</item>
+        <item>2005</item>
+    </string-array>
+    <string-array name="Cpalce03">
+        <item>3001</item>
+        <item>3002</item>
+        <item>3003</item>
+        <item>3004</item>
+        <item>3005</item>
+    </string-array>
+</resources>

@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:tools="http://schemas.android.com/tools"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent"
+             tools:context=".Manager.Fragment.SeatCodeFragment"
+             android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="座位管理"
+        android:textSize="40sp"/>
+
+    <LinearLayout
+        android:id="@+id/ll01"
+        android:layout_below="@+id/tv01"
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="教学楼："
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/SBool"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:gravity="center"
+            android:layout_width="99dp"
+            android:layout_height="wrap_content"
+            android:text="楼层："
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/Sfool"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll02"
+        android:layout_below="@+id/ll01"
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="教室号："
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/Sroom"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="座位号："
+            android:textSize="25sp"/>
+
+        <EditText
+            android:id="@+id/Snum"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll04"
+        android:layout_below="@+id/ll02"
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="105dp"
+            android:layout_height="wrap_content"
+            android:text="  经度： "
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/SLat"
+            android:layout_width="93dp"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:text="    纬度："
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/SLong"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:id="@+id/ll03"
+        android:layout_below="@+id/ll04"
+        android:gravity="center_horizontal"
+        android:paddingTop="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/Creatcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="生成二维码" />
+
+    </LinearLayout>
+
+
+
+    <RelativeLayout
+        android:layout_below="@+id/ll03"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/Codeimg"
+            android:layout_marginBottom="1dp"
+            android:text="长按保存"
+            android:textSize="25sp" />
+
+        <ImageView
+
+            android:id="@+id/Codeimg"
+            android:layout_width="200dip"
+            android:layout_height="200dip" />
+
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>
